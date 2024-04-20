@@ -1,0 +1,327 @@
+@import url("https://fonts.google.com/specimen/Inter");
+html,
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  min-height: 90%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+ 
+}
+
+
+div {
+  height: 30px;
+  width: 80px;
+  margin: 5px 0;
+}
+.images-container {
+  display: flex;
+  float: 1;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+hr {
+  border: 1px solid #E4E4E4;
+  width: 100%;
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+  height: 20%;
+}
+
+.enlarged-image {
+  height: 500px;
+  width: 100%;
+}
+
+.img {
+  width: 20%;
+  height: 110px;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 55%;
+  height: 100%;
+}
+
+.vendor {
+  font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+letter-spacing: 0.5px;
+text-align: center;
+color: #B9BBBF;
+padding : 10px 0px;
+margin: 0px;
+}
+
+.title {
+  font-family: "Inter";
+font-size: 28px;
+font-weight: 600;
+line-height: 33.89px;
+text-align: left;
+color: #000000;
+padding: 5px 0px;
+margin: 0px;
+
+
+}
+.price {
+  font-family: "Inter";
+font-size: 34px;
+font-weight: 700;
+line-height: 41.15px;
+text-align: left;
+color: #3A4980;
+padding: 10px 0px;
+margin: 0px;
+display: inline;
+
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+
+.discount {
+  display: inline;
+  font-family: "Inter";
+font-size: 21px;
+font-weight: 400;
+line-height: 25.41px;
+text-align: left;
+color: #FF0000;
+margin: 0px;
+padding: 10px 20px;
+
+}
+
+.compare-price {
+  font-family: "Inter";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25.41px;
+  text-align: left;
+  padding: 10px 0px;
+  margin: 0px;
+  text-decoration: line-through;
+
+}
+
+h3 {
+  font-family: "Inter";
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+color: #B9BBBF;
+
+}
+
+.div > div {
+  height: 50px;
+  width: 50px;
+  margin-right : 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+label {
+  font-family: "Inter";
+  color: #726C6C;
+  font-weight: 500;
+}
+
+.quantity-container {
+  display: flex;
+  width: 169px;
+height: 40px;
+border-radius: 29.5px;
+align-items: center;
+justify-content: space-evenly;
+ background: #F3F3F3;
+ font-weight: 600;
+ font-size: 16px;
+ margin-right: 40px;
+
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+}
+
+.add-to-cart-btn {
+  width: 169px;
+height: 40px;
+border-radius: 29.5px;
+ font-weight: 400;
+ font-size: 14px;
+ color: #ffffff;
+ background: #3A4980;
+ letter-spacing: 0.5px;
+
+
+}
+
+.description {
+  font-family: "Inter";
+font-size: 20px;
+font-weight: 300;
+text-align: left;
+width: 100%;
+color: #A3A3A3;
+
+
+}
+
+.hide {
+  display: none;
+}
+
+.text {
+  display: block;
+  font-family: "Inter";
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+text-align: center;
+margin: 10px 0px;
+padding: 5px;
+color: #000000;
+background: #E7F8B7;
+width:  100%;
+
+
+
+}
+
+@media screen and (max-width : 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .images-container {
+    width: 100%;
+  }
+
+  .enlarged-image {
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  .img {
+    height: 100px;
+  }
+  .product-details {
+    width: 100%;
+  }
+  .vendor {
+    font-size: 12px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .title {
+    font-size: 16px;
+    margin: 0px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .description {
+    font-size: 16px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .price {
+    font-size: 17px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .discount {
+    font-size: 17px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .compare-price {
+    font-size: 12px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .quantity-container {
+    width: 30%;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+  .add-to-cart-btn {
+    width: 60%;
+    font-size: 10px;
+    margin: 5px 0px;
+    padding: 0px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  h3 {
+    margin: 0px;
+    padding: 5px 0px;
+  }
+  
+  .description {
+    margin: 20px 0px;
+  }
+}
